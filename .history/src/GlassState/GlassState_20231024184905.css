@@ -1,0 +1,47 @@
+/* GlassState.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .model {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .selected-glass-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .glass-item {
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .glass-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .selected-glass-info {
+    margin-top: 20px;
+  }
+  
+  /* Add additional styles as needed */
+  

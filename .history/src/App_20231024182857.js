@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import GlassState from './GlassState/GlassState';
+import 
 function App() {
   return (
-    <div>
-      <GlassState/>
+    <div className="container">
+      
     </div>
   );
 }

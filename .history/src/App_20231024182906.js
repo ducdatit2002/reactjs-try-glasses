@@ -3,7 +3,7 @@ import './App.css';
 import GlassState from './GlassState/GlassState';
 function App() {
   return (
-    <div>
+    <div className="container">
       <GlassState/>
     </div>
   );

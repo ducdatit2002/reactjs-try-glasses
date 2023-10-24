@@ -1,0 +1,51 @@
+.backGround {
+    position: relative;
+    background-image: 'url("./glassesImage/background.jpg")';
+    bac: "center center";
+    backgroundRepeat: "no-repeat";
+    backgroundSize: "cover";
+    height: 700
+}
+.overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 700px;
+}
+.img {
+    position: relative;
+}
+.tryGlasses {
+    position: absolute;
+    left: 36%;
+    top: 24%;
+}
+.content {
+    position: absolute;
+    background-color: rgba(255,166,0,.575);
+    width: 50%;
+    height: 35%;
+    left: 25%;
+    bottom: 0;
+    text-align: left;
+    padding: 1rem;
+}
+.content .glass-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #8a2be2;
+}
+.content .glass-content {
+    font-size: 14px;
+}
+.glasses img {
+    padding: 0.5rem;
+    border: 1px solid rgba(0,0,0,.404);
+    margin: 0 0.1rem;
+    cursor: pointer;
+}
